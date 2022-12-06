@@ -8,7 +8,7 @@ void table_saw(int last_move){
 		for(int i=0; i < 9; i++){
 		if (pole[i] == 0) cout << "_" << " ";
 		else if (pole[i] == 1) cout << "0" << " ";
-		else cout << "x" << " ";
+		else cout << "x" << "   ";
 		if ((i + 1) % 3 == 0) cout << endl;
 		}
 	if (last_move == 1) put_o();
